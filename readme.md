@@ -64,10 +64,10 @@
 
 ### 针对小白的详细教程
 
-1. 观看b站大佬的yoga s740 i7版本黑苹果教程（注意他是i7版本，不可完全套用）
+1. 观看b站大佬的yoga s740 i7版本黑苹果教程（注意他是i7版本，不可完全套用）[B站链接](https://www.bilibili.com/video/BV1RL4y1W7iw/?share_source=copy_web&vd_source=e12669299d41a343bc4b7a143cb161f2)
 2. i5版本和i7版本只有一个不同，就是显卡的platform-id需要修改
 3. 也就是视频教程里99%都不需要修改，只需要在大约3：55之后操作OC Auxiliary Tool时，需要多操作一步
-4. 点击左侧dp栏，再点击PciRoot(0x0)/Pci(0x2,0x0)，修改platform-id的值，尾数修改为518A
+4. 点击左侧DP栏，再点击PciRoot(0x0)/Pci(0x2,0x0)，修改platform-id的值，尾数修改为518A
 5. 其他照着视频做即可，不难。
 6. 有问题联系邮箱lsc369@foxmail.com
 
