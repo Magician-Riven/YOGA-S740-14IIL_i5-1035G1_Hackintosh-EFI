@@ -122,7 +122,8 @@
 * 参考过*frozenzero123*大佬的EFI：[frozenzero123大佬github链接](https://github.com/frozenzero123/YOGA-S740)
 * 参考了*frozenzero123*大佬b站视频：[大佬b站视频链接](https://www.bilibili.com/video/BV1RL4y1W7iw/?share_source=copy_web&vd_source=e12669299d41a343bc4b7a143cb161f2)
 
-# 联系方式
+# 联系方式及赞助
 
 邮箱：lsc369@foxmail.com
 
+如果可以，赞助我明早的早餐~： [点此赞助！<爱发电>](https://afdian.net/a/lsc007)，
