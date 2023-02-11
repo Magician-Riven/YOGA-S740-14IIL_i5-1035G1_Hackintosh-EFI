@@ -112,20 +112,25 @@
    
 4. 不能调节亮度？
 
-  * 原因：bios没有屏蔽核显
+   * 原因：bios没有屏蔽核显
   
-  * 重启进入bios找到Graphic device选项，选择UMA Only，重启即可正常。
+   * 重启进入bios找到Graphic device选项，选择UMA Only，重启即可正常。
   
 5. 隐藏/显示程序坞有延迟，不跟手
-  * 默认就是有疫苗延迟的，可以关掉
-  * 调整为0s延迟，终端输入`defaults write com.apple.Dock autohide-delay -float 0 && killall Dock`
-  * 恢复默认的1s延迟`defaults delete com.apple.Dock autohide-delay && killall Dock`
+
+   * 默认就是有疫苗延迟的，可以关掉
+
+   * 调整为0s延迟，终端输入`defaults write com.apple.Dock autohide-delay -float 0 && killall Dock`
+
+   * 恢复默认的1s延迟`defaults delete com.apple.Dock autohide-delay && killall Dock`
 
 # 鸣谢
 
-* 参考过 *nan1jueze* 大佬的EFI：[nan1jueze大佬github链接](https://github.com/nan1jueze/YOGA_S740-14IIL_i5-1035G1_OpenCore)
-* 参考过*frozenzero123*大佬的EFI：[frozenzero123大佬github链接](https://github.com/frozenzero123/YOGA-S740)
-* 参考了*frozenzero123*大佬b站视频：[大佬b站视频链接](https://www.bilibili.com/video/BV1RL4y1W7iw/?share_source=copy_web&vd_source=e12669299d41a343bc4b7a143cb161f2)
+  * 参考过 *nan1jueze* 大佬的EFI：[nan1jueze大佬github链接](https://github.com/nan1jueze/YOGA_S740-14IIL_i5-1035G1_OpenCore)
+
+  * 参考过*frozenzero123*大佬的EFI：[frozenzero123大佬github链接](https://github.com/frozenzero123/YOGA-S740)
+
+  * 参考了*frozenzero123*大佬b站视频：[大佬b站视频链接](https://www.bilibili.com/video/BV1RL4y1W7iw/?share_source=copy_web&vd_source=e12669299d41a343bc4b7a143cb161f2)
 
 # 联系方式及赞助
 
