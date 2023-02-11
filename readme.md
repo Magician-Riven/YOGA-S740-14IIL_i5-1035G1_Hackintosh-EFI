@@ -115,6 +115,11 @@
   * 原因：bios没有屏蔽核显
   
   * 重启进入bios找到Graphic device选项，选择UMA Only，重启即可正常。
+  
+5. 隐藏/显示程序坞有延迟，不跟手
+  * 默认就是有疫苗延迟的，可以关掉
+  * 调整为0s延迟，终端输入`defaults write com.apple.Dock autohide-delay -float 0 && killall Dock`
+  * 恢复默认的1s延迟`defaults delete com.apple.Dock autohide-delay && killall Dock`
 
 # 鸣谢
 
